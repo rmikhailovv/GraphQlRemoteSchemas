@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <IsPackable>false</IsPackable>
-        <RootNamespace>CoverGo.Applications.Http.GraphQl.Tests</RootNamespace>
+        <RootNamespace>Tools.GraphQl.Schemas.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

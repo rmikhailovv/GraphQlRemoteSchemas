@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.GraphQl.Schemas", "Tools.GraphQl.Schemas\Tools.GraphQl.Schemas.csproj", "{169FDC08-5901-4A22-993A-378475B9A977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.GraphQl.Schemas.Tests", "Tools.GraphQl.Schemas.Tests\Tools.GraphQl.Schemas.Tests.csproj", "{E52C82E1-6734-4D13-BA72-E6A40DA82901}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{169FDC08-5901-4A22-993A-378475B9A977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169FDC08-5901-4A22-993A-378475B9A977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169FDC08-5901-4A22-993A-378475B9A977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169FDC08-5901-4A22-993A-378475B9A977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52C82E1-6734-4D13-BA72-E6A40DA82901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52C82E1-6734-4D13-BA72-E6A40DA82901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52C82E1-6734-4D13-BA72-E6A40DA82901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52C82E1-6734-4D13-BA72-E6A40DA82901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
