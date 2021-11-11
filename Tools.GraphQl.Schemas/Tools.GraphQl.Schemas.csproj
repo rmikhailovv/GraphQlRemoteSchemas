@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <PackageId>Tools.GraphQl.Schemas</PackageId>
+        <Company>CoverGo</Company>
+        <PackageDescription>GraphQl basic stuff and services for CoverGo C# microservice projects</PackageDescription>
+        <RepositoryUrl>https://github.com/CoverGo/BackendPackages</RepositoryUrl>
+        <Version>1.0.0</Version>
+        <Authors>CoverGo</Authors>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <Description>GraphQl basic stuff and services for CoverGo C# microservice projects</Description>
+        <PackageProjectUrl>https://github.com/CoverGo/BackendPackages</PackageProjectUrl>
+        <RootNamespace>CoverGo.Applications.Http.GraphQl.Schemas</RootNamespace>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.8" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+
+</Project>
